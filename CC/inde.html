@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./JS/scrpt.js" defer></script>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="H1">Cifra de César</h1>
+    </header>
+    <main>
+      <div class="containerContent">
+        <div>
+          <label class="cfc" for="cfc">Cifra de César</label>
+          <input type="radio" name="option" id="cfc" />
+          <label class="bsd" for="base64">Base64</label>
+          <input type="radio" name="option" id="base64" checked />
+        </div>
+        <textarea name="" id="textNoCrypto" cols="30" rows="10"></textarea>
+        <input
+          class="inputIncrement"
+          min="1"
+          type="number"
+          name=""
+          id="incrementar"
+        />
+        <div>
+          <button onclick="Codificar()">Codificar</button>
+          <button onclick="Decodificar()">Descodificar</button>
+        </div>
+        <textarea name="" id="textCrypto" cols="30" rows="10"></textarea>
+      </div>
+    </main>
+  </body>
+</html>

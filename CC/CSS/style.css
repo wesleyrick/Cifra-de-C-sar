@@ -1,0 +1,44 @@
+body {
+  background-color: #000000;
+}
+
+.containerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+textarea {
+  width: 300px;
+  resize: none;
+}
+.inputIncrement {
+  display: none;
+  width: 300px;
+  border-radius: 50px;
+}
+
+.H1 {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  color: white;
+}
+.cfc {
+  color: white;
+}
+.bsd {
+  color: white;
+}
+
+.container1 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 350px;
+  height: 150px;
+  background: linear-gradient(0, #120c56, #000000);
+}
