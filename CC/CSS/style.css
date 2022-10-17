@@ -1,5 +1,7 @@
 body {
-  background-color: #000000;
+  background-image: url(/back.png);
+  background-size: cover;
+  height: 800px;
 }
 
 .containerContent {
@@ -10,11 +12,14 @@ body {
 textarea {
   width: 300px;
   resize: none;
+  border-radius: 10px;
+  border: 10pxx;
+  border-color: rgb(0, 0, 255);
 }
 .inputIncrement {
-  display: none;
   width: 300px;
   border-radius: 50px;
+  margin-top: 5px;
 }
 
 .H1 {
@@ -29,7 +34,7 @@ textarea {
 .bsd {
   color: white;
 }
-
+/* 
 .container1 {
   background: rgb(2, 0, 36);
   background: linear-gradient(
@@ -41,4 +46,18 @@ textarea {
   width: 350px;
   height: 150px;
   background: linear-gradient(0, #120c56, #000000);
+} */
+
+button{
+  border-radius: 50px;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: white;
+ font-style: italic;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    margin: 1em 2em;
+  }
 }

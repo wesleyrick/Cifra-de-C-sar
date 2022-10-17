@@ -12,6 +12,7 @@
   <body>
     <header>
       <h1 class="H1">Cifra de César</h1>
+      <h2></h2>
     </header>
     <main>
       <div class="containerContent">
@@ -22,17 +23,15 @@
           <input type="radio" name="option" id="base64" checked />
         </div>
         <textarea name="" id="textNoCrypto" cols="30" rows="10"></textarea>
-        <input
-          class="inputIncrement"
-          min="1"
-          type="number"
-          name=""
-          id="incrementar"
-        />
-        <div>
-          <button onclick="Codificar()">Codificar</button>
-          <button onclick="Decodificar()">Descodificar</button>
+      
+        <div class="btns" >
+          <button class="btn1" onclick="Codificar()"><strong>Codificar</strong></button>
+          <button class="btn2" onclick="Decodificar()"><strong> Descodificar</strong></button>
         </div>
+       
+        <input class="inputIncrement"min="1"type="number"name=""id="incrementar"/>
+       
+       
         <textarea name="" id="textCrypto" cols="30" rows="10"></textarea>
       </div>
     </main>
