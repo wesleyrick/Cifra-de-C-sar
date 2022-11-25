@@ -1,5 +1,5 @@
 body {
-  background-image: url(/back.png);
+  background-image: url(/CC/back.png);
   background-size: cover;
   height: 800px;
 }
@@ -34,7 +34,7 @@ textarea {
 .bsd {
   color: white;
 }
-/* 
+ 
 .container1 {
   background: rgb(2, 0, 36);
   background: linear-gradient(
@@ -45,7 +45,7 @@ textarea {
   );
   width: 350px;
   height: 150px;
-  background: linear-gradient(0, #120c56, #000000);
+  background: linear-gradient(0, #120c56, #000000); 
 } */
 
 button{
